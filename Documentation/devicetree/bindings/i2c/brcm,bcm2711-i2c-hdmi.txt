@@ -1,0 +1,13 @@
+Broadcom BCM2711 HDMI I2C controller
+
+Required properties:
+- compatible : Must be:
+	"brcm,bcm2711-i2c-hdmi"
+- reg: Must contain register location and length.
+
+Example:
+
+i2c-hdmi@0x7ef00b00 {
+	compatible = "brcm,bcm2711-i2c-hdmi";
+	reg = <0x7ef00b00 0x5000>;
+};
