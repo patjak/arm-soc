@@ -222,6 +222,18 @@
 			status = "disabled";
 		};
 
+		i2c_hdmi0: i2c-hdmi@0x7ef00b00 {
+			compatible = "brcm,bcm2711-i2c-hdmi";
+			reg = <0x7ef00b00 0x5000>;
+			status = "disabled";
+		};
+
+		i2c_hdmi1: i2c-hdmi@0x7ef05b00 {
+			compatible = "brcm,bcm2711-i2c-hdmi";
+			reg = <0x7ef05b00 0x5000>;
+			status = "disabled";
+		};
+
 		pwm1: pwm@7e20c800 {
 			compatible = "brcm,bcm2835-pwm";
 			reg = <0x7e20c800 0x28>;

@@ -121,3 +121,11 @@
 &vchiq {
 	interrupts = <GIC_SPI 34 IRQ_TYPE_LEVEL_HIGH>;
 };
+
+&i2c_hdmi0 {
+	status = "okay";
+};
+
+&i2c_hdmi1 {
+	status = "okay";
+};
